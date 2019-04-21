@@ -1,0 +1,47 @@
+body{
+    font-family: 'roboto';
+}
+
+.label_title{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.label_subtitle {
+    font-size: 24px;
+}
+
+.label_common{ 
+    font-size: 18px;
+}
+
+.label_smaller{
+    font-size: 16px;
+}
+
+input[type='text']{
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #999;
+    font-weight: bold;
+    font-size: 48px;
+    color: #999;
+    width: 99%;
+}
+
+input[type='text']:focus{
+    border-bottom: solid 2px #fff;
+    outline: none;
+}
+
+.gray{
+    color: #999;
+}
+
+.dark_white{
+    color: #fafafa;
+}
+
+.white{
+    color: #ffffff;
+}

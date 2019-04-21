@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import App from './App.js';
+import './index.css';
 
-ReactDom.render(<h1>Hello World</h1>, document.getElementById('app'));
+ReactDom.render(<App/>, document.getElementById('app'));
