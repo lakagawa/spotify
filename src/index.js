@@ -5,5 +5,6 @@ import configureStore from './configureStore'
 import './index.css';
 
 
+
 const store = configureStore();
 ReactDom.render(<Root store={store} />, document.getElementById('app'));

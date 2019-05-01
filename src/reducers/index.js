@@ -64,7 +64,7 @@ const spotifyApp = (state = {}, action) => {
 		case RECEIVE_ITEM:
 			return {
 				// ...state,
-				[action.item]: itemData(state[action.item], action)
+				// [action.item]: itemData(state[action.item], action)
 			}
 		default:
 			return state
