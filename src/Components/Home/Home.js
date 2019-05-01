@@ -1,9 +1,9 @@
 import React from 'react';
 import './Home.css';
-import Search from '../Components/Search/Search.js';
-import ItemAlbum from '../Components/ItemAlbum/ItemAlbum.js';
+import Search from '../Search/Search.js';
+import ItemAlbum from '../ItemAlbum/ItemAlbum.js';
 import 'typeface-roboto';
-import '../commonStyle.css';
+import '../../commonStyle.css';
 
 export default class Home extends React.Component {
 
